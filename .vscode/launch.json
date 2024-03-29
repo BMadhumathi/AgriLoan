@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MadhumathiApplication<madhumathi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.agroinnovate.madhumathi.MadhumathiApplication",
+            "projectName": "madhumathi",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

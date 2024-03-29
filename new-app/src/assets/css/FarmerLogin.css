@@ -1,0 +1,94 @@
+.parent{margin-top: 5%;
+    width:90%;
+    padding-left:50px ;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign{
+    border-radius:10px;
+      width:400px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.8); /* Adjust the last value (alpha) for transparency */
+      
+  }
+  .lo{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+  }
+  .login{
+    margin-top:10px;
+    
+    padding-top:10px;
+  }
+  .fo{
+    margin-top:1rem;
+    padding-bottom:40px;
+   
+    align-items:center;
+    justify-content: center;
+  }
+  .pass{
+    padding-top:30px;
+  }
+  .but{
+    padding-top:40px;
+  }
+  .but1{
+    padding-top:10px;
+    padding-bottom:30px;
+  }
+  .but2{
+    width: 35%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #edbc40;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #link-button
+  {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #img
+  {
+    transition: all 0.6s;
+    border-radius: 0;
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 790px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  #log
+  {
+    display: flex;
+    padding-left: 50px;
+  }
+  #a
+  {
+    padding: 11%;
+    text-decoration: none;
+    color: crimson;
+    font-size:19px;
+    text-shadow: 1px 1px rgb(246, 143, 143);
+  }
+  /* Add these styles to your FarmerLogin.css file */
+
+  .error-message {
+    color: red;
+    font-size: 10px; /* Adjust the font size as needed */
+    margin-top: 5px;
+    display: block; /* Ensure the error message is displayed as a block element */
+  }
